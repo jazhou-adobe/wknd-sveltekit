@@ -57,6 +57,6 @@
   loading={loading}
   width={width}
   height={height}
-  itemprop={itemprop}
-  itemtype={itemtype}
+  data-aue-prop={itemprop}
+  data-aue-type={itemtype}
   />

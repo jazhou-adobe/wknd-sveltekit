@@ -26,20 +26,20 @@
           loading={aboveFold ? 'eager' : 'lazy'}
           sizes="50vw"
           clazz="w-full h-full object-center object-cover lg:w-full lg:h-full"
-          itemprop='primaryImage'
-          itemtype='image'
+          data-aue-prop='primaryImage'
+          data-aue-type='media'
         />
       </a>
     </div>
     {#if showDetails}
     <div class="mt-1 pt-2 flex h-7">
-      <p class="text-sm text-gray-500" itemprop='tripLength' itemtype='text'>{duration}</p>
+      <p class="text-sm text-gray-500" data-aue-prop='tripLength' data-aue-type='text'>{duration}</p>
       <p class="flex-grow text-sm font-medium text-gray-900"></p>
-      <p class="text-sm font-medium text-gray-900" itemprop='price' itemtype='text'>{price}</p>
+      <p class="text-sm font-medium text-gray-900" data-aue-prop='price' data-aue-type='text'>{price}</p>
     </div>
     <h3 class="font-semibold text-gray-700 h-7">
       <a href={href}>
-        <div itemprop='title' itemtype='text'>
+        <div data-aue-prop='title' data-aue-type='text'>
 <!--          <span aria-hidden="true" class="absolute inset-0"></span>-->
           {title}
         </div>
