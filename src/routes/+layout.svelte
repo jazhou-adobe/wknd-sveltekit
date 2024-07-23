@@ -12,9 +12,9 @@
   
 	onMount(async () => {
 	  window.addEventListener('scroll', handleScroll);
-		if (PUBLIC_AEM_HOST.includes('author')) {
+		//if (PUBLIC_AEM_HOST.includes('author')) {
 			await import('@adobe/universal-editor-cors').default;
-		}
+		//}
 	});
   
 	function handleScroll() {
