@@ -3,6 +3,8 @@
 	// import './styles.css';
 	import '../app.postcss';
 	import { PUBLIC_AEM_HOST } from '$env/static/public';
+	import { PUBLIC_AEM_AUTH } from '$env/static/public';
+
 
 	import { onMount } from 'svelte';
   
@@ -27,7 +29,7 @@
   </script>
   
 <svelte:head>
-	<meta name='urn:adobe:aue:system:aemconnection' content={`aem:${AEM_AUTH}`}/>
+	<meta name='urn:adobe:aue:system:aemconnection' content={`aem:${PUBLIC_AEM_AUTH}`}/>
 </svelte:head>
 <div class="app">
 	<Header style="height: {headerHeight}px;"/>
