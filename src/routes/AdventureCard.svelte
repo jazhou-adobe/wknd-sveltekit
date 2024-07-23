@@ -14,7 +14,7 @@
     const aboveFold = imageSrc.includes("bali-surf-camp");
   </script>
 
-  <div class="group relative" itemscope itemtype='reference' itemfilter='cf' itemid={itemId}>
+  <div class="group relative" itemscope data-aue-type='reference' data-aue-filter='cf' data-aue-resource={itemId}>
     <div class="w-full h-full bg-gray-200 rounded-md overflow-hidden group-hover:opacity-75 lg:h-80 lg:aspect-none">
       <a href={href}>
         <AemImage
