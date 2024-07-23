@@ -27,7 +27,7 @@
   </script>
   
 <svelte:head>
-	<meta name='urn:auecon:aemconnection' content={`aem:${PUBLIC_AEM_HOST}`}/>
+	<meta name='urn:adobe:aue:system:aemconnection' content={`aem:${AEM_AUTH}`}/>
 </svelte:head>
 <div class="app">
 	<Header style="height: {headerHeight}px;"/>
