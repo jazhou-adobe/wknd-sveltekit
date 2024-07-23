@@ -30,6 +30,8 @@
   
 <svelte:head>
 	<meta name='urn:adobe:aue:system:aemconnection' content={`aem:${PUBLIC_AEM_AUTH}`}/>
+	<meta name="urn:adobe:aue:config:extensions" content="https://47679-workflowextension.adobeio-static.net"/>
+
 </svelte:head>
 <div class="app">
 	<Header style="height: {headerHeight}px;"/>

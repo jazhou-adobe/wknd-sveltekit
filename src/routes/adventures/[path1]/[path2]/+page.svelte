@@ -2,7 +2,7 @@
 <div>
     {#if adventure}
       <article>
-        <div class="bg-white" itemscope data-aue-type='reference' data-aue-filter='cf' data-aue-resource={`urn:aemconnection:${adventure._path}/jcr:content/data/master`}>
+        <div class="bg-white" data-aue-type='reference' data-aue-filter='cf' data-aue-resource={`urn:aemconnection:${adventure._path}/jcr:content/data/master`}>
           <div class="max-w-2xl px-4 py-10 mx-auto pt-28 sm:px-6 lg:max-w-7xl lg:px-8">
             <div class="shadow-md sm:h-80 bg-gray-200 aspect-w-1 aspect-h-1 rounded-md overflow-hidden group-hover:opacity-75 lg:h-80 lg:aspect-none">
               <AemImage
